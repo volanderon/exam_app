@@ -1,0 +1,42 @@
+<html ng-app="quizApp">
+    
+    <head>
+        <title>Playscape Exam</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">        
+        <link href="css/style.css" rel="stylesheet""
+    </head>
+    
+    <body ng-controller="mainController">
+    
+        <login></login>
+        
+        <quiz></quiz>
+        
+        <result></result>
+        
+        <!-- Base -->
+        <script src="bootstrap-3.3.5/js/tests/vendor/jquery.min.js"></script>
+        <script src="angular.min.js"></script>
+        <script src="bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/shared/Modules.js"></script>
+        
+        <!-- Directives -->
+        <script src="app/directives/LoginDirective.js"></script>
+        <script src="app/directives/QuizDirective.js"></script>
+        <script src="app/directives/ResultDirective.js"></script>
+        
+        <!-- Factories -->
+        <script src="app/factories/UserFactory.js"></script>
+        <script src="app/factories/QuizFactory.js"></script>
+        <script src="app/factories/ResultFactory.js"></script>
+        
+        <!-- Controllers -->
+        <script src="app/controllers/UserController.js"></script>
+        <script src="app/controllers/QuizController.js"></script>
+        <script src="app/controllers/ResultController.js"></script>
+        
+    </body>
+    
+</html>
